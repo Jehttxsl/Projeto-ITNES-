@@ -1,41 +1,84 @@
-<!doctype html>
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title> Login Web </title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <section>
-            <div class="form-box">
-              <div class="form-value">
-                <form>
-                  <h2>Login de acesso</h2>
-                  <div class="inputbox">
-                    <input type="text" id="username" required>
-                    <label for="username">Username</label>
-                  </div>
-                  <div class="inputbox">
-                    <input type="password" id="senha" required>
-                    <label for="senha">Password</label>
-                  </div>
-                  <div class="forget">
-                    <label>
-                      <p>Forget <a href="#">Password</a></p>
-                    </label>
-                  </div>
-                  <button type="submit">Entrar</button>
-                  <div class="register">
-                    <p>Don't have an account? <a href="#">Register</a></p>
-                  </div>
-                </form>
-              </div>
-            </div>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/background (1).png');
+    background-size: cover;
+  }
+  form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    height: 300px;
+    width: 250px;
+    background-color: rgba(0, 0, 255, 0.1);
+  }
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: white;
+    border: 2px solid blue;
+    color: blue; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;;
+  }
+   button :hover {
+    background-color: blue; /* Cor de fundo ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse */
+  }
+  
+  h1 {
+    text-align: center;
+    border: 2px solid blue; /* Borda azul */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 20px; /* Espaçamento externo para afastar dos inputs */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
+  }
+</style>
+</head>
+<body>
+  <section>
+    <div class="form-box">
+      <div class="form-value">
+<form>
+  <img src="/background (1).png" alt="Background Image" style="position:absolute;top:0;left:-9999px;">
+  <h1 style="text-align:center;">Login de acesso </h1>
+  
+  <input type="text" placeholder="Username">
+  
+  <input type="password" placeholder="Password">
+  <br>
+  <button type="submit">Submit</button>
+</form>
           </section>
+          <script>
+            document.getElementById('loginForm').addEventListener('submit', function(event) {
+              event.preventDefault();
+              window.location.href = 'welcome.html'; // Altere para o URL da página para a qual você deseja redirecionar
+            });
+          </script>
         <script src="" async defer></script>
     </body>
 </html>
