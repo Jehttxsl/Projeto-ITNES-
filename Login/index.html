@@ -1,3 +1,4 @@
+<!---página de login para acessar o site-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -17,47 +18,6 @@
     background-image: url('/background (1).png');
     background-size: cover;
   }
-  form {
-    background: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    height: 300px;
-    width: 250px;
-    background-color: rgba(0, 0, 255, 0.1);
-  }
-  input {
-    padding: 10px;
-    margin-bottom: 10px;
-    width: 200px;
-    border-radius: 5px;
-    border: none;
-  }
-  
-  button {
-    padding: 10px 20px;
-    background-color: white;
-    border: 2px solid blue;
-    color: blue; 
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;;
-  }
-   button :hover {
-    background-color: blue; /* Cor de fundo ao passar o mouse */
-    color: white; /* Cor do texto ao passar o mouse */
-  }
-  
-  h1 {
-    text-align: center;
-    border: 2px solid blue; /* Borda azul */
-    padding: 10px; /* Espaçamento interno */
-    margin-bottom: 20px; /* Espaçamento externo para afastar dos inputs */
-    border-radius: 5px; /* Bordas arredondadas */
-    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
-  }
 </style>
 </head>
 <body>
@@ -66,21 +26,28 @@
       <div class="form-value">
 <form>
   <img src="/background (1).png" alt="Background Image" style="position:absolute;top:0;left:-9999px;">
-  <h1 style="text-align:center;">Login de acesso </h1>
-  
-  <input type="text" placeholder="Username" required>
-  
-  <input type="password" placeholder="Password" required>
+  <h1 style="text-align:center; color: ghostwhite;">Login de acesso </h1>
+  <div class="inputbox">
+  <input type="text" name="username" placeholder="Username" required>
+  </div>
+  <div class="inputbox">
+  <input type="password" name="password" placeholder="Password" required>
+  </div>
   <br>
   <button type="submit">Submit</button>
+  
+  <p class="palabre"> © 2024 ITNES - Inclusão Tecnológica nas Escolas</p> 
 </form>
           </section>
+          <nav>
           <script>
             document.getElementById('loginForm').addEventListener('submit', function(event) {
               event.preventDefault();
-              window.location.href = 'welcome.html'; // Altere para o URL da página para a qual você deseja redirecionar
+              window.location.href = ''; 
             });
           </script>
-        <script src="" async defer></script>
+          </nav>=
+        <script src="script.js" async defer></script>
+        
     </body>
 </html>
