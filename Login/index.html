@@ -1,4 +1,4 @@
-<!---página de login para acessar o site-->
+<!-- página de login para acessar o site -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -19,50 +19,41 @@
     background-size: cover;
   }
   .color-button {
-            background-color: black ; /* Cor de fundo */
-            border: none; /* Sem borda */
-            color: white; /* Cor do texto */
-            padding: 15px 32px; /* Espaçamento interno */
-            text-align: center; /* Alinhamento do texto */
-            text-decoration: none; /* Sem sublinhado */
-            display: inline-block; /* Exibição em linha */
-            font-size: 16px; /* Tamanho da fonte */
-            margin: 4px 2px; /* Margem */
-            cursor: pointer; /* Cursor de ponteiro */
-            border-radius: 12px; /* Bordas arredondadas */
-        }
-        .color-button:hover {
-            background-color: #45a049; /* Cor de fundo ao passar o mouse */
+    background-color: black; /* Cor de fundo */
+    border: none; /* Sem borda */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-decoration: none; /* Sem sublinhado */
+    display: inline-block; /* Exibição em linha */
+    font-size: 14px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem */
+    cursor: pointer; /* Cursor de ponteiro */
+    border-radius: 12px; /* Bordas arredondadas */
+  }
+  .color-button:hover {
+    background-color: #45a049; /* Cor de fundo ao passar o mouse */
+  }
 </style>
 </head>
 <body>
   <section>
     <div class="form-box">
       <div class="form-value">
-<form>
-  <img src="/background (1).png" alt="Background Image" style="position:absolute;top:0;left:-9999px;">
-  <h1 style="text-align:center; color: ghostwhite;">Login de acesso </h1>
-  <div class="inputbox">
-  <input type="text" name="username" placeholder="Username" required>
-  </div>
-  <div class="inputbox">
-  <input type="password" name="password" placeholder="Password" required>
-  </div>
-  <br>
-  <button type="submit">Submit</button>
-  
-  <p class="palabre"> © 2024 ITNES - Inclusão Tecnológica nas Escolas</p> 
-</form>
-          </section>
-          <nav>
-          <script>
-            document.getElementById('loginForm').addEventListener('submit', function(event) {
-              event.preventDefault();
-              window.location.href = ''; 
-            });
-          </script>
-          </nav>=
-        <script src="script.js" async defer></script>
-        
-    </body>
+        <form>
+          <img src="/background (1).png" alt="Background Image" style="position:absolute;top:0;left:-9999px;">
+          <h1 style="text-align:center; color: ghostwhite;">Login de acesso</h1>
+          <div class="inputbox">
+            <input type="text" name="username" placeholder="Username" required>
+          </div>
+          <div class="inputbox">
+            <input type="password" name="password" placeholder="Password" required>
+          </div>
+          <br>
+          <button class="color-button" type="submit">Submit</button>
+          <p class="palabre">© 2024 ITNES - Inclusão Tecnológica nas Escolas</p> 
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
 </html>
