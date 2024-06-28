@@ -4,11 +4,11 @@ Inclusão tecnológica nas escolas
 
 Um projeto inovador feito todo por programação dos próprios alunos.
 
-o que seria a ITNES?
+#o que seria a ITNES?
 
 ITNES, nada mais é do que Inclusão Tecnológica nas Escolas. Esse é um projeto desenvolvido por desenvolvedores de web jovens que estudam na rede estadual.
 
-Projeto de Inclusão Tecnológica nas Escolas
+#Projeto de Inclusão Tecnológica nas Escolas
 Introdução
 
 Vivemos em uma época em que a tecnologia está presente em quase todos os aspectos de nossas vidas, inclusive na educação. No entanto, muitos professores e alunos ainda encontram dificuldades para usar essas ferramentas de maneira eficaz. Pensando nisso, criamos o Projeto de Inclusão Tecnológica nas Escolas, uma iniciativa para tornar a tecnologia mais acessível e útil para todos.
